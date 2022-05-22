@@ -26,3 +26,10 @@ print('\n')
 myListA = [1, 2]
 myListB = myListA * 3
 print(myListB)
+
+#verifica se um item está na lista
+print('b' in myList)
+
+#adiciona item na lista
+myList.append('e')
+print(myList)
