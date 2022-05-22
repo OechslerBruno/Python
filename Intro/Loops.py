@@ -20,3 +20,9 @@ index = 0
 while index < len(myList):
     print(myList[index])
     index += 1
+    
+#repetição de itens da lista
+print('\n')
+myListA = [1, 2]
+myListB = myListA * 3
+print(myListB)
